@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Test {
@@ -75,4 +76,16 @@ public class Test {
         return result;
     }
 
+    /**
+     * 插入区间
+     */
+//    static List<LinkedList<Integer>> insertInterval(List<Node<Integer>> list) {
+//
+//
+//        return null;
+//    }
+//
+//    static List<LinkedList<Integer>> megerLinkedList(List<LinkedList<Integer>> left, List<LinkedList<Integer>> right) {
+//
+//    }
 }

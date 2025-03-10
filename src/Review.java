@@ -1,20 +1,10 @@
 import java.util.Arrays;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class Main {
+public class Review {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
 
-        int[] nums = {10, 1, 2, 7, 6, 1, 5};
-        int result = Arrays.binarySearch(nums, 8);
-        System.out.println(result);
-
-        int[] nums2 = new int[10];
-        System.out.println(nums2.length);
-
-        String str = "aaba";
-        System.out.println(str.substring(3 , 4));
-
+        // HashMap HashTable ConcurrentHashMap
         ConcurrentHashMap<String, String> chm = new ConcurrentHashMap(16);
         chm.put("123", "eee");
         System.out.println(chm.size());
